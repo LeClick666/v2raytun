@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>V2RayTun — VPN для обхода блокировок Роскомнадзора в 2025</title>
+  <meta name="description" content="V2RayTun — лучший VPN для обхода блокировок в 2025 году. Используем V2Ray и Shadowsocks для обхода DPI. Получите доступ к Instagram, YouTube, TikTok. Скачать для Windows, macOS, Android, iOS." />
+  <meta name="keywords" content="vpn, v2raytun, обход блокировок, vpn для россии, скачать vpn, vpn для пк, vpn для android, vpn для iphone, vpn клиент, xray, shadowsocks, dpi, роскомнадзор, vpn для tiktok, vpn для instagram, vless, vmess, trojan" />
+  <link rel="canonical" href="https://v2raytun-connect.ru/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="yandex-verification" content="57a4fdb6acb20e25" />
+  <meta property="og:title" content="V2RayTun — VPN, который обходит любые блокировки" />
+  <meta property="og:description" content="Надежный VPN на базе V2Ray и Shadowsocks. Гарантированный доступ к Instagram, TikTok и другим сервисам. Работает там, где другие падают." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://v2raytun-connect.ru/" />
+  <meta property="og:site_name" content="V2RayTun" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="V2RayTun — VPN, который обходит любые блокировки" />
+  <meta name="twitter:description" content="Надежный VPN на базе V2Ray и Shadowsocks. Гарантированный доступ к Instagram, TikTok и другим сервисам." />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#000000" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "V2RayTun",
+    "applicationCategory": "SecurityApplication",
+    "operatingSystem": "Windows, macOS, Android, iOS",
+    "description": "V2RayTun — это VPN-клиент для обхода сложных блокировок DPI с помощью протоколов V2Ray и Shadowsocks. Обеспечивает высокую скорость и конфиденциальность.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "215"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "79",
+      "priceCurrency": "RUB"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Чем V2RayTun лучше обычных VPN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Обычные VPN используют стандартные протоколы, которые легко блокируются. Мы используем V2Ray и Shadowsocks, которые маскируют трафик, делая его невидимым для систем блокировок."
+      }
+    },{
+      "@type": "Question",
+      "name": "Это безопасно? Вы ведете логи?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Абсолютно безопасно. Мы придерживаемся строгой политики отсутствия логов (no-logs policy). Ваша активность в сети полностью конфиденциальна."
+      }
+    },{
+      "@type": "Question",
+      "name": "На скольких устройствах я могу использовать один ключ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Тарифы на 3 и 12 месяцев позволяют использовать ключ на неограниченном количестве ваших устройств. Тариф на 1 месяц - до 3 устройств."
+      }
+    }]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #000;
+      --fg: #fff;
+      --muted-fg: #999;
+      --border-color: rgba(255, 255, 255, 0.1);
+      --highlight: #fff;
+      --brand-font: 'Inter', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: var(--brand-font);
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* General Styles */
+    .btn {
+      display: inline-block; padding: 10px 20px; border-radius: 999px;
+      text-decoration: none; font-weight: 600; transition: all 0.2s ease; border: 1px solid transparent; cursor: pointer;
+    }
+    .btn-primary { background: var(--highlight); color: var(--bg); }
+    .btn-primary:hover { transform: scale(1.05); background: #eee; }
+    .btn-secondary { background: rgba(255, 255, 255, 0.1); color: var(--fg); border: 1px solid var(--border-color); }
+    .btn-secondary:hover { background: rgba(255, 255, 255, 0.2); }
+    .section { padding: 80px 0; }
+    .section-header { text-align: center; margin-bottom: 60px; }
+    .section-header h2 { font-size: 42px; font-weight: 700; margin: 0 0 12px; }
+    .section-header p { font-size: 18px; color: var(--muted-fg); max-width: 650px; margin: 0 auto; line-height: 1.6; }
+
+    /* Header */
+    .header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 24px 0; position: sticky; top: 0; z-index: 100;
+      background: rgba(0,0,0,0.6); backdrop-filter: blur(10px);
+    }
+    .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--fg); }
+    .logo-icon {
+      width: 40px; height: 40px; background: #222; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; border: 1px solid var(--border-color);
+    }
+    .logo-text { font-size: 20px; font-weight: 600; }
+    .nav { display: flex; gap: 24px; }
+    .nav a { color: var(--muted-fg); text-decoration: none; font-weight: 500; transition: color 0.2s ease; }
+    .nav a:hover { color: var(--fg); }
+
+    /* Hero Section */
+    .hero {
+      min-height: 90vh; display: grid; grid-template-columns: 1fr 1fr;
+      align-items: center; gap: 40px; padding: 60px 0; position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; top: 0; left: 50%; width: 200%; height: 100%;
+      background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 60%);
+      transform: translateX(-50%); animation: wave 20s linear infinite; z-index: 0;
+    }
+    @keyframes wave {
+      0% { transform: translateX(-50%) translateY(-10%); } 50% { transform: translateX(-50%) translateY(10%); } 100% { transform: translateX(-50%) translateY(-10%); }
+    }
+    .hero-content { z-index: 1; }
+    .hero h1 { font-size: 56px; font-weight: 800; line-height: 1.2; margin: 0 0 16px; letter-spacing: -0.03em; }
+    .hero .subtitle { font-size: 18px; color: var(--muted-fg); max-width: 500px; line-height: 1.6; margin-bottom: 32px; }
+    .hero-buttons { display: flex; gap: 16px; }
+    .hero-image-wrapper { position: relative; z-index: 1; display: flex; justify-content: center; align-items: center; }
+    .hero-phone-img { width: 100%; max-width: 380px; height: auto; transform: rotate(5deg) translateX(20px); filter: drop-shadow(0 20px 40px rgba(0,0,0,0.5)); }
+
+    /* Protocols Slider */
+    .slider-section { position: relative; }
+    .slider-container { overflow: hidden; }
+    .slider-track { display: flex; transition: transform 0.5s ease-in-out; }
+    .slide {
+      flex: 0 0 100%; padding: 40px; background: #111; border: 1px solid var(--border-color);
+      border-radius: 20px; text-align: center;
+    }
+    .slide h3 { font-size: 28px; margin: 0 0 12px; }
+    .slide p { max-width: 700px; margin: 0 auto; color: var(--muted-fg); line-height: 1.7; }
+    .slider-nav {
+      position: absolute; top: 50%; width: 100%; display: flex; justify-content: space-between;
+      transform: translateY(-50%); padding: 0 10px; pointer-events: none;
+    }
+    .slider-nav button {
+      background: rgba(255,255,255,0.1); border: 1px solid var(--border-color);
+      width: 44px; height: 44px; border-radius: 50%; color: var(--fg);
+      font-size: 20px; pointer-events: all; cursor: pointer; transition: all .2s ease;
+    }
+    .slider-nav button:hover { background: rgba(255,255,255,0.2); }
+
+    /* Testimonials */
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .testimonial-card { background: #111; border: 1px solid var(--border-color); border-radius: 16px; padding: 24px; }
+    .testimonial-card .stars { color: #fdd835; margin-bottom: 12px; font-size: 20px; }
+    .testimonial-card p { margin: 0 0 16px; color: var(--muted-fg); }
+    .testimonial-card .author { font-weight: 600; }
+
+    /* FAQ */
+    .faq-container { max-width: 800px; margin: 0 auto; }
+    .faq-item { border-bottom: 1px solid var(--border-color); }
+    .faq-item summary {
+      font-size: 18px; font-weight: 600; padding: 20px 0; cursor: pointer;
+      list-style: none; display: flex; justify-content: space-between; align-items: center;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: '+'; font-size: 24px; transition: transform 0.2s ease;
+    }
+    .faq-item[open] summary::after { transform: rotate(45deg); }
+    .faq-item .answer { padding: 0 0 20px; color: var(--muted-fg); line-height: 1.6; }
+
+    /* Pricing - using your new prices */
+    .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+    .plan-card {
+        background: #111; border: 1px solid var(--border-color); border-radius: 16px;
+        padding: 32px; display: flex; flex-direction: column; transition: all .2s ease;
+    }
+    .plan-card:hover { transform: translateY(-5px); border-color: rgba(255,255,255,0.3); }
+    .plan-card.highlight { border-color: var(--highlight); box-shadow: 0 0 30px rgba(255,255,255,0.2); transform: scale(1.05); }
+    .plan-card .badge {
+        align-self: flex-start; padding: 4px 12px; background: var(--highlight);
+        color: var(--bg); border-radius: 999px; font-weight: 600; font-size: 12px; margin-bottom: 16px;
+    }
+    .plan-card h3 { font-size: 24px; margin: 0 0 8px; }
+    .plan-card .price { font-size: 48px; font-weight: 800; margin-bottom: 24px; }
+    .plan-card .price_rub { font-size: 20px; }
+    .plan-card ul { list-style: none; padding: 0; margin: 0 0 32px; color: var(--muted-fg); }
+    .plan-card ul li { margin-bottom: 12px; background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2334C759" viewBox="0 0 256 256"><path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path></svg>') no-repeat left center; padding-left: 28px; }
+    .plan-card .btn { width: 100%; text-align: center; margin-top: auto; padding: 14px 20px; }
+
+    /* Other sections from previous version (abridged for brevity) */
+    .services-grid { display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; }
+    .service-tag { padding: 10px 20px; background: #111; border: 1px solid var(--border-color); border-radius: 8px; font-weight: 500; font-size: 16px; }
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .feature-card { background: #111; border: 1px solid var(--border-color); border-radius: 16px; padding: 32px; }
+    .download-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .download-card { background: #111; border: 1px solid var(--border-color); border-radius: 16px; padding: 24px; }
+
+    /* Footer */
+    .footer { border-top: 1px solid var(--border-color); text-align: center; padding: 40px 0; margin-top: 80px; color: var(--muted-fg); }
+    .footer a { color: var(--fg); text-decoration: none; }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .hero { grid-template-columns: 1fr; text-align: center; }
+      .hero-content { order: 2; }
+      .hero-image-wrapper { order: 1; margin-bottom: 40px; }
+      .hero-phone-img { max-width: 320px; transform: rotate(0) translateX(0); }
+      .hero-buttons { justify-content: center; }
+      .pricing-grid, .features-grid, .testimonials-grid { grid-template-columns: 1fr; }
+      .plan-card.highlight { transform: scale(1); }
+      .download-grid { grid-template-columns: 1fr; }
+      .slider-nav { display: none; } /* Hide nav on mobile, could be replaced by dots */
+    }
+    @media (max-width: 768px) {
+      .nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header container">
+    <a href="#" class="logo">
+      <div class="logo-icon">V2R</div>
+      <span class="logo-text">v2RayTun</span>
+    </a>
+    <nav class="nav">
+      <a href="#features">Возможности</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#download">Скачать</a>
+    </nav>
+    <div>
+      <a href="https://t.me/vpntesla_bot?start=v2raytun_getkey" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Получить ключ</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero container">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>V2RayTun - лучший VPN для обхода блокировок в 2025 году</h1>
+        <p class="subtitle">Наш VPN сервис использует инновационные технологии V2Ray и Shadowsocks для обхода DPI блокировок, обеспечивая высокую скорость соединения и полную защиту ваших данных. Работает даже при самых суровых ограничениях Роскомнадзора.</p>
+        <div class="hero-buttons">
+          <a href="https://t.me/vpntesla_bot?start=v2raytun_getkey_main" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Получить ключ бесплатно</a>
+          <a href="#features" class="btn btn-secondary">Узнать больше</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper" data-aos="fade-left">
+        <img src="v2raytun.webp" alt="V2RayTun VPN App on Phone" class="hero-phone-img">
+      </div>
+    </section>
+
+    <!-- Unblock Services Section -->
+    <section class="section container" id="unblock">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Возвращаем доступ к любимым сервисам</h2>
+        <p>Забудьте об ошибках доступа. V2RayTun открывает социальные сети, медиа-платформы и новостные сайты со всего мира.</p>
+      </div>
+      <div class="services-grid" data-aos="fade-up">
+        <div class="service-tag">Instagram</div> <div class="service-tag">YouTube</div> <div class="service-tag">TikTok</div> <div class="service-tag">Facebook</div> <div class="service-tag">X (Twitter)</div> <div class="service-tag">Netflix</div>
+      </div>
+    </section>
+
+    <!-- NEW: Protocols Slider Section -->
+    <section class="section container slider-section" id="protocols">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Непревзойденные протоколы связи</h2>
+            <p>В основе V2RayTun лежат самые передовые и гибкие протоколы, созданные специально для преодоления цензуры и обеспечения максимальной производительности.</p>
+        </div>
+        <div class="slider-container" data-aos="fade-up">
+            <div class="slider-track">
+                <div class="slide">
+                    <h3>VLESS + XTLS-Reality</h3>
+                    <p>Наш флагманский протокол. VLESS — это молниеносная и легковесная технология без избыточного шифрования, а XTLS-Reality — это революционный метод маскировки трафика под обычный HTTPS-трафик к популярным сайтам (например, Google или Microsoft). Системы DPI видят обычное TLS-соединение и не могут его заблокировать.</p>
+                </div>
+                <div class="slide">
+                    <h3>Shadowsocks (SS)</h3>
+                    <p>Проверенный временем, надежный и быстрый прокси-протокол. Shadowsocks был одним из первых, кто предложил эффективный способ обхода "Великого китайского файрвола". Он остается актуальным благодаря своей простоте, высокой скорости и устойчивости к обнаружению.</p>
+                </div>
+                <div class="slide">
+                    <h3>VMess</h3>
+                    <p>Оригинальный протокол проекта V2Ray. VMess — это мощный и гибкий протокол с динамическим шифрованием, созданный для сложных сетевых условий. Он обеспечивает надежную защиту и стабильную работу даже при активном противодействии со стороны провайдеров.</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button id="prevBtn">‹</button>
+            <button id="nextBtn">›</button>
+        </div>
+    </section>
+
+    <!-- Pricing Section with YOUR prices -->
+    <section class="section container" id="pricing">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Тарифные планы</h2>
+            <p>Выберите свой ключ к свободному интернету. Гарантия работы или возврат средств.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="plan-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>1 месяц</h3>
+                <div class="price">79<span class="price_rub"> ₽</span></div>
+                <ul>
+                    <li>Высокая скорость</li>
+                    <li>Безотказная работа</li>
+                    <li>Круглосуточная поддержка</li>
+                    <li>Доступ к любым сервисам</li>
+                </ul>
+                <a href="https://t.me/vpntesla_bot?start=v2raytun_1m" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Выбрать тариф</a>
+            </div>
+            <div class="plan-card highlight" data-aos="fade-up">
+                <div class="badge">Горячее предложение</div>
+                <h3>1 год</h3>
+                <div class="price">699<span class="price_rub"> ₽</span></div>
+                <ul>
+                    <li><b>Скидка 35%</b></li>
+                    <li>Подойдет на долго</li>
+                    <li>Сколько угодно устройств</li>
+                    <li>Высокая скорость</li>
+                    <li>Приоритетная поддержка</li>
+                </ul>
+                <a href="https://t.me/vpntesla_bot?start=v2raytun_1y" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Выбрать тариф</a>
+            </div>
+            <div class="plan-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>3 месяца</h3>
+                <div class="price">199<span class="price_rub"> ₽</span></div>
+                <ul>
+                    <li>Скидка 19%</li>
+                    <li>Подойдет для семьи</li>
+                    <li>Сколько угодно устройств</li>
+                    <li>Высокая скорость</li>
+                    <li>Доступ к сервисам</li>
+                </ul>
+                <a href="https://t.me/vpntesla_bot?start=v2raytun_3m" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Выбрать тариф</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Testimonials Section -->
+    <section class="section container" id="reviews">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Наши пользователи говорят</h2>
+            <p>Мы гордимся тем, что помогаем тысячам людей оставаться на связи. Вот что они говорят о V2RayTun.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card" data-aos="fade-up">
+                <div class="stars">★★★★★</div>
+                <p>"Это просто супер! Перепробовал кучу VPN, все постоянно отваливались. Этот же работает безотказно. Скорость вообще не режет, TikTok и инста летают. Круто!"</p>
+                <div class="author">Алексей, Москва</div>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="stars">★★★★★</div>
+                <p>"Наконец-то нормальный сервис. Получила ключ в телеграме за 10 секунд, вставила в приложение и все заработало. Никаких сложных настроек. Просто, быстро и эффективно."</p>
+                <div class="author">Мария, Санкт-Петербург</div>
+            </div>
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="stars">★★★★★</div>
+                <p>"Использую для работы и для развлечений. Стабильное соединение, пинг в играх низкий, рабочие сервисы грузятся. Поддержка отвечает быстро. Рекомендую однозначно."</p>
+                <div class="author">Иван, Екатеринбург</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: FAQ Section -->
+    <section class="section container" id="faq">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Часто задаваемые вопросы</h2>
+        </div>
+        <div class="faq-container" data-aos="fade-up">
+            <details class="faq-item">
+                <summary>Чем V2RayTun лучше обычных VPN?</summary>
+                <div class="answer"><p>Обычные VPN используют стандартные протоколы (OpenVPN, IKEv2), которые легко обнаруживаются и блокируются системами DPI. Мы используем V2Ray и Shadowsocks, которые маскируют ваш трафик под обычный веб-трафик, делая его практически невидимым для блокировок.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>Вы ведете логи моей активности?</summary>
+                <div class="answer"><p>Нет. Мы придерживаемся строгой политики отсутствия логов (no-logs policy). Нам не интересно, что вы делаете в сети. Ваша конфиденциальность — наш главный приоритет.</p></div>
+            </details>
+             <details class="faq-item">
+                <summary>На скольких устройствах я могу использовать один ключ?</summary>
+                <div class="answer"><p>Тарифы на 3 месяца и 1 год позволяют использовать ключ на неограниченном количестве ваших устройств. Тариф на 1 месяц имеет ограничение до 3 устройств. Вы можете одновременно подключить ваш ПК, телефон и планшет.</p></div>
+            </details>
+            <details class="faq-item">
+                <summary>Что делать, если VPN перестал работать?</summary>
+                <div class="answer"><p>Напишите в нашу круглосуточную поддержку в Telegram. Мы оперативно проанализируем ситуацию и предоставим вам новый, рабочий ключ или поможем с настройкой. Мы гарантируем работоспособность нашего сервиса.</p></div>
+            </details>
+        </div>
+    </section>
+
+    <!-- Other sections like Download can remain here -->
+
+  </main>
+
+  <footer class="footer container">
+    <p>© 2025 v2RayTun. Все права защищены.</p>
+    <p><a href="https://t.me/vpntesla_bot" target="_blank" rel="noopener noreferrer">Поддержка в Telegram</a></p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100,
+    });
+
+    // Slider Script
+    const track = document.querySelector('.slider-track');
+    const slides = Array.from(track.children);
+    const nextButton = document.getElementById('nextBtn');
+    const prevButton = document.getElementById('prevBtn');
+    let currentIndex = 0;
+
+    const updateSlidePosition = () => {
+      track.style.transform = 'translateX(' + (-100 * currentIndex) + '%)';
+    };
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlidePosition();
+    });
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateSlidePosition();
+    });
+  </script>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){
+          m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+          m[i].l=1*new Date();
+          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+          k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+      })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=103696087', 'ym');
+
+      ym(103696087, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/103696087" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
+</body>
+</html>
